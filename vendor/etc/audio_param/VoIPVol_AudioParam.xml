@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AudioParam version="1.1">
+  <ParamTree>
+    <Param path="RCV" param_id="0"/>
+    <Param path="HAC" param_id="5"/>
+    <Param path="HS" param_id="6"/>
+    <Param path="HP" param_id="3"/>
+    <Param path="SPK" param_id="2"/>
+    <Param path="HS5POLE" param_id="4"/>
+    <Param path="HS5POLE_ANC" param_id="4"/>
+    <Param path="USB" param_id="1"/>
+    <Param path="HEARING_AID" param_id="7"/>
+    <Param path="BT_A2DP" param_id="7"/>
+    <Param path="BT_A2DP_HP" param_id="7"/>
+    <Param path="BT_A2DP_SPK" param_id="7"/>
+    <Param path="Default,RCV" param_id="33"/>
+    <Param path="Default,HAC" param_id="5"/>
+    <Param path="Default,HS" param_id="34"/>
+    <Param path="Default,HP" param_id="35"/>
+    <Param path="Default,SPK" param_id="39"/>
+    <Param path="Default,HS5POLE" param_id="4"/>
+    <Param path="Default,HS5POLE_ANC" param_id="4"/>
+    <Param path="Default,USB" param_id="1"/>
+    <Param path="VxWifi_NB,RCV" param_id="8"/>
+    <Param path="VxWifi_NB,HAC" param_id="13"/>
+    <Param path="VxWifi_NB,HS" param_id="21"/>
+    <Param path="VxWifi_NB,HP" param_id="25"/>
+    <Param path="VxWifi_NB,SPK" param_id="36"/>
+    <Param path="VxWifi_NB,HS5POLE" param_id="12"/>
+    <Param path="VxWifi_NB,HS5POLE_ANC" param_id="12"/>
+    <Param path="VxWifi_NB,USB" param_id="9"/>
+    <Param path="VxWifi_WB,RCV" param_id="16"/>
+    <Param path="VxWifi_WB,HAC" param_id="13"/>
+    <Param path="VxWifi_WB,HS" param_id="37"/>
+    <Param path="VxWifi_WB,HP" param_id="38"/>
+    <Param path="VxWifi_WB,SPK" param_id="40"/>
+    <Param path="VxWifi_WB,HS5POLE" param_id="12"/>
+    <Param path="VxWifi_WB,HS5POLE_ANC" param_id="12"/>
+    <Param path="VxWifi_WB,USB" param_id="9"/>
+    <Param path="VxWifi_SWB,RCV" param_id="9"/>
+    <Param path="VxWifi_SWB,HAC" param_id="13"/>
+    <Param path="VxWifi_SWB,HS" param_id="22"/>
+    <Param path="VxWifi_SWB,HP" param_id="17"/>
+    <Param path="VxWifi_SWB,SPK" param_id="18"/>
+    <Param path="VxWifi_SWB,HS5POLE" param_id="12"/>
+    <Param path="VxWifi_SWB,HS5POLE_ANC" param_id="12"/>
+    <Param path="VxWifi_SWB,USB" param_id="9"/>
+    <Param path="3GVT,RCV" param_id="26"/>
+    <Param path="3GVT,HAC" param_id="31"/>
+    <Param path="3GVT,HS" param_id="29"/>
+    <Param path="3GVT,HP" param_id="32"/>
+    <Param path="3GVT,SPK" param_id="28"/>
+    <Param path="3GVT,HS5POLE" param_id="30"/>
+    <Param path="3GVT,HS5POLE_ANC" param_id="30"/>
+    <Param path="3GVT,USB" param_id="27"/>
+  </ParamTree>
+  <ParamUnitPool>
+    <ParamUnit param_id="0">
+      <Param name="dl_gain" value="4,4,4,4,4,4,4,4"/>
+      <Param name="ul_gain" value="24"/>
+    </ParamUnit>
+    <ParamUnit param_id="1">
+      <Param name="dl_gain" value="18,15,12,9,6,2,0,0"/>
+      <Param name="ul_gain" value="32"/>
+    </ParamUnit>
+    <ParamUnit param_id="2">
+      <Param name="dl_gain" value="12,9,7,5,3,1,0,0"/>
+      <Param name="ul_gain" value="23"/>
+    </ParamUnit>
+    <ParamUnit param_id="4">
+      <Param name="dl_gain" value="18,15,12,9,6,3,0,0"/>
+      <Param name="ul_gain" value="24"/>
+    </ParamUnit>
+    <ParamUnit param_id="5">
+      <Param name="dl_gain" value="18,15,12,9,6,3,0,0"/>
+      <Param name="ul_gain" value="0"/>
+    </ParamUnit>
+    <ParamUnit param_id="3">
+      <Param name="dl_gain" value="8,8,8,8,8,8,8,8"/>
+      <Param name="ul_gain" value="24"/>
+    </ParamUnit>
+    <ParamUnit param_id="6">
+      <Param name="dl_gain" value="8,8,8,8,8,8,8,8"/>
+      <Param name="ul_gain" value="27"/>
+    </ParamUnit>
+    <ParamUnit param_id="7">
+      <Param name="dl_gain" value="48,33,25,19,13,6,0"/>
+      <Param name="ul_gain" value="0"/>
+    </ParamUnit>
+    <ParamUnit param_id="8">
+      <Param name="dl_gain" value="1,1,1,1,1,1,1,1"/>
+      <Param name="ul_gain" value="19"/>
+    </ParamUnit>
+    <ParamUnit param_id="9">
+      <Param name="dl_gain" value="38,38,38,38,38,38,38,38"/>
+      <Param name="ul_gain" value="15"/>
+    </ParamUnit>
+    <ParamUnit param_id="10">
+      <Param name="dl_gain" value="12,9,7,5,3,1,0,0"/>
+      <Param name="ul_gain" value="24"/>
+    </ParamUnit>
+    <ParamUnit param_id="11">
+      <Param name="dl_gain" value="-25,-22,-20,-17,-15,-12,-10"/>
+      <Param name="ul_gain" value="34"/>
+    </ParamUnit>
+    <ParamUnit param_id="12">
+      <Param name="dl_gain" value="18,15,12,9,6,3,0,0"/>
+      <Param name="ul_gain" value="24"/>
+    </ParamUnit>
+    <ParamUnit param_id="13">
+      <Param name="dl_gain" value="18,15,12,9,6,3,0,0"/>
+      <Param name="ul_gain" value="0"/>
+    </ParamUnit>
+    <ParamUnit param_id="14">
+      <Param name="dl_gain" value="11,8,6,4,2,0"/>
+      <Param name="ul_gain" value="30"/>
+    </ParamUnit>
+    <ParamUnit param_id="15">
+      <Param name="dl_gain" value="16,13,10,7,4,1"/>
+      <Param name="ul_gain" value="32"/>
+    </ParamUnit>
+    <ParamUnit param_id="16">
+      <Param name="dl_gain" value="1,1,1,1,1,1,1,1"/>
+      <Param name="ul_gain" value="17"/>
+    </ParamUnit>
+    <ParamUnit param_id="17">
+      <Param name="dl_gain" value="4,4,4,4,4,4,4,4"/>
+      <Param name="ul_gain" value="17"/>
+    </ParamUnit>
+    <ParamUnit param_id="18">
+      <Param name="dl_gain" value="13,10,8,6,4,2"/>
+      <Param name="ul_gain" value="23"/>
+    </ParamUnit>
+    <ParamUnit param_id="19">
+      <Param name="dl_gain" value="10,7,5,4,3,2"/>
+      <Param name="ul_gain" value="36"/>
+    </ParamUnit>
+    <ParamUnit param_id="20">
+      <Param name="dl_gain" value="14,11,8,5,2,0"/>
+      <Param name="ul_gain" value="37"/>
+    </ParamUnit>
+    <ParamUnit param_id="21">
+      <Param name="dl_gain" value="5,5,5,5,5,5,5,5"/>
+      <Param name="ul_gain" value="34"/>
+    </ParamUnit>
+    <ParamUnit param_id="22">
+      <Param name="dl_gain" value="4,4,4,4,4,4,4,4"/>
+      <Param name="ul_gain" value="24"/>
+    </ParamUnit>
+    <ParamUnit param_id="23">
+      <Param name="dl_gain" value="-25,-22,-20,-17,-15,-12,-10"/>
+      <Param name="ul_gain" value="0"/>
+    </ParamUnit>
+    <ParamUnit param_id="24">
+      <Param name="dl_gain" value="-25,-22,-20,-17,-15,-12,-10"/>
+      <Param name="ul_gain" value="0"/>
+    </ParamUnit>
+    <ParamUnit param_id="25">
+      <Param name="dl_gain" value="5,5,5,5,5,5,5,5"/>
+      <Param name="ul_gain" value="19"/>
+    </ParamUnit>
+    <ParamUnit param_id="26">
+      <Param name="dl_gain" value="1,1,1,1,1,1,1,1"/>
+      <Param name="ul_gain" value="20"/>
+    </ParamUnit>
+    <ParamUnit param_id="27">
+      <Param name="dl_gain" value="38,38,38,38,38,38,38,38"/>
+      <Param name="ul_gain" value="27"/>
+    </ParamUnit>
+    <ParamUnit param_id="28">
+      <Param name="dl_gain" value="12,9,7,5,3,1,0,0"/>
+      <Param name="ul_gain" value="23"/>
+    </ParamUnit>
+    <ParamUnit param_id="29">
+      <Param name="dl_gain" value="18,15,12,9,6,3,0,0"/>
+      <Param name="ul_gain" value="24"/>
+    </ParamUnit>
+    <ParamUnit param_id="30">
+      <Param name="dl_gain" value="18,15,12,9,6,3,0,0"/>
+      <Param name="ul_gain" value="0"/>
+    </ParamUnit>
+    <ParamUnit param_id="31">
+      <Param name="dl_gain" value="4,4,4,4,4,4,4,4"/>
+      <Param name="ul_gain" value="24"/>
+    </ParamUnit>
+    <ParamUnit param_id="32">
+      <Param name="dl_gain" value="4,4,4,4,4,4,4,4"/>
+      <Param name="ul_gain" value="16"/>
+    </ParamUnit>
+    <ParamUnit param_id="33">
+      <Param name="dl_gain" value="4,4,4,4,4,4,4,4"/>
+      <Param name="ul_gain" value="17"/>
+    </ParamUnit>
+    <ParamUnit param_id="34">
+      <Param name="dl_gain" value="7,7,7,7,7,7,7,7"/>
+      <Param name="ul_gain" value="25"/>
+    </ParamUnit>
+    <ParamUnit param_id="35">
+      <Param name="dl_gain" value="7,7,7,7,7,7,7,7"/>
+      <Param name="ul_gain" value="17"/>
+    </ParamUnit>
+    <ParamUnit param_id="36">
+      <Param name="dl_gain" value="12,9,7,5,3,1,0,0"/>
+      <Param name="ul_gain" value="20"/>
+    </ParamUnit>
+    <ParamUnit param_id="37">
+      <Param name="dl_gain" value="5,5,5,5,5,5,5,5"/>
+      <Param name="ul_gain" value="35"/>
+    </ParamUnit>
+    <ParamUnit param_id="38">
+      <Param name="dl_gain" value="5,5,5,5,5,5,5,5"/>
+      <Param name="ul_gain" value="17"/>
+    </ParamUnit>
+    <ParamUnit param_id="39">
+      <Param name="dl_gain" value="12,9,7,5,3,1,0,0"/>
+      <Param name="ul_gain" value="22"/>
+    </ParamUnit>
+    <ParamUnit param_id="40">
+      <Param name="dl_gain" value="13,10,8,6,4,2"/>
+      <Param name="ul_gain" value="22"/>
+    </ParamUnit>
+  </ParamUnitPool>
+</AudioParam>
