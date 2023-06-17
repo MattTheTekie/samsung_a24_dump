@@ -1,0 +1,14 @@
+# a24nsxx-user 13 TP1A.220624.014 A245FXXS2AWE3 release-keys
+- manufacturer: samsung
+- platform: mt6789
+- codename: a24
+- flavor: a24nsxx-user
+- release: 13
+- id: TP1A.220624.014
+- incremental: A245FXXS2AWE3
+- tags: release-keys
+- fingerprint: samsung/a24nsxx/a24:12/SP1A.210812.016/A245FXXS2AWE3:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: a24nsxx-user-13-TP1A.220624.014-A245FXXS2AWE3-release-keys
+- repo: samsung_a24_dump
